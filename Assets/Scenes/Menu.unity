@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4066,13 +4065,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: '<color=#D6B694>Programmers</color>
 
-    <size=48>ShahidShaikh(ViceLead);
+    <size=56>Sabbath Barboza(Lead
+    Programmer);
 
-    <size=56>SabbathBarboza(HardCarry);
+    <size=48>Shahid Shaikh;
+
+    Sanjay Kamal Kumar Talari;
 
     </size>
-
-    SanjayKamalKumarTalari();
 
     </size>
 
@@ -4081,20 +4081,19 @@ MonoBehaviour:
 
     <size=48><size=56>KriyaChheda(Lead/Manager);
 
-    </size>
+    ArnimSinghania;
 
-    ArnimSinghania(2ndVoice);
+    PreranaThosar;
 
-    PreranaThosar();
-
-    AkashKanojiya();
+    AkashKanojiya;
 
     </size>
 
 
     <color=#D6B694>Mentor</color>
 
-    <size=36>Marmik(MoralSupport);</size>'
+    <size=36>Marmik(Project
+    Lead);</size>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4531e7510f3a6c848bd0fde53a47d3f7, type: 2}
   m_sharedMaterial: {fileID: 9135101147186604414, guid: 4531e7510f3a6c848bd0fde53a47d3f7, type: 2}
