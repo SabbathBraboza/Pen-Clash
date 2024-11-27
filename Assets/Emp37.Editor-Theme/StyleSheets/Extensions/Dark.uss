@@ -1,0 +1,8 @@
+/*Theme: New Dark Theme*/
+ {
+	background-color: rgba(003, 003, 003, 0);
+}
+ {
+	background-color: rgba(003, 003, 003, 0);
+	border-color: rgba(255, 255, 255, 0);
+}

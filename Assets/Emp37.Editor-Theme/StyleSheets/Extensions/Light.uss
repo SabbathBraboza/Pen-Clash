@@ -1,0 +1,1333 @@
+/*Theme: Light.Asiimov*/
+
+.AnimLeftPaneSeparator, {
+	background-color: rgba(015, 015, 015, 1);
+}
+
+.TimeRulerBackground, {
+	background-color: rgba(254, 105, 003, 1);
+}
+
+.AnimationRowOdd,
+.AnimationRowEven, {
+	background-color: rgba(000, 000, 000, 0);
+}
+
+.GUIEditor-BreadcrumbLeftBackground,
+.GUIEditor-BreadcrumbMidBackground, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 1px 0px 0px;
+}
+
+.CN-CountBadge, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.CN-EntryBackOdd:checked,
+.CN-EntryBackEven:checked, {
+	background-color: rgba(254, 105, 003, 0.7490196);
+}
+
+.CN-EntryBackOdd, {
+	background-color: rgba(254, 105, 003, 0.05098039);
+}
+
+.CN-EntryBackEven, {
+	background-color: rgba(254, 105, 003, 0.1019608);
+}
+
+.CN-StatusInfo, {
+	color: rgba(255, 255, 255, 1);
+}
+
+.CN-StatusWarn, {
+	color: rgba(254, 170, 003, 1);
+}
+
+.CN-StatusError, {
+	color: rgba(255, 000, 000, 1);
+}
+
+.CN-EntryInfoIcon, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Console.Entry.Info.png");
+}
+
+.AppToolbar,
+.dockarea, {
+	background-color: rgba(015, 015, 015, 1);
+}
+
+.ScrollView,
+.ScrollViewAlt,
+.TabWindowBackground, {
+	background-color: rgba(240, 240, 240, 1);
+	border-width: 0px 0px 0px 0px;
+}
+
+.dockHeader, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.dragtab,
+.dragtab-first, {
+	background-color: rgba(000, 000, 000, 0);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px 1px 2px 0px;
+	color: rgba(015, 015, 015, 1);
+}
+
+.dragtab:hover,
+.dragtab-first:hover, {
+	background-color: rgba(240, 240, 240, 1);
+}
+
+.dragtab:active,
+.dragtab:checked,
+.dragtab-first:active,
+.dragtab-first:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 1px 2px 0px;
+}
+
+.dragtab-scroller-next,
+.dragtab-scroller-prev, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px 0px 1px 0px;
+}
+
+.dragtab-scroller-next:hover,
+.dragtab-scroller-prev:hover, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.OL-Ping,
+.OL-MiniPing,
+.TV-Ping, {
+	background-color: rgba(254, 217, 191, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.StatusBarIcon, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(240, 240, 240, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.StatusBarIcon:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.StatusBarIcon:active, {
+	background-color: rgba(240, 240, 240, 1);
+}
+
+.SelectionRect, {
+	background-color: rgba(254, 105, 003, 0.2509804);
+	border-color: rgba(240, 240, 240, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.Window, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 2px 2px 2px 2px;
+}
+
+.Box, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.HelpBox,
+.FrameBox, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.CN-Box, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 1px 0px 0px 0px;
+}
+
+.ColorPickerBox, {
+	background-color: rgba(254, 105, 003, 0.09803922);
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.ColorPickerBox:hover,
+.ColorPickerBox:focus,
+.ColorPickerBox:hover:focus, {
+	border-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.Button,
+.AC-Button,
+.LargeButton,
+.MiniToolbarButton,
+.minibutton,
+.DropDownToggleButton,
+.DropDownButton, {
+	background-color: rgba(051, 051, 051, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	color: rgba(240, 240, 240, 1);
+}
+
+.Button:hover,
+.AC-Button:hover,
+.LargeButton:hover,
+.MiniToolbarButton:hover,
+.minibutton:hover,
+.DropDownToggleButton:hover,
+.DropDownButton:hover, {
+	background-color: rgba(197, 197, 197, 1);
+	color: rgba(051, 051, 051, 1);
+}
+
+.Button:active,
+.Button:checked,
+.Button:active:checked,
+.AC-Button:active,
+.AC-Button:checked,
+.AC-Button:active:checked,
+.LargeButton:active,
+.LargeButton:checked,
+.LargeButton:active:checked,
+.MiniToolbarButton:active,
+.MiniToolbarButton:checked,
+.MiniToolbarButton:active:checked,
+.minibutton:active,
+.minibutton:checked,
+.minibutton:active:checked,
+.DropDownToggleButton:active,
+.DropDownToggleButton:checked,
+.DropDownToggleButton:active:checked,
+.DropDownButton:active,
+.DropDownButton:checked,
+.DropDownButton:active:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.AppCommand,
+.AppCommand:hover, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.AppCommand:active,
+.AppCommand:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.EditModeSingleButton, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(051, 051, 051, 1);
+	border-bottom-color: rgba(051, 051, 051, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.EditModeSingleButton:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.EditModeSingleButton:active,
+.EditModeSingleButton:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(051, 051, 051, 1);
+	border-top-color: rgba(051, 051, 051, 1);
+}
+
+.EditModeSingleButton:hover:checked, {
+	background-color: rgba(254, 141, 064, 1);
+}
+
+.Tab-first,
+.Tab-first:focus,
+.Tab-middle,
+.Tab-middle:focus,
+.Tab-last,
+.Tab-last:focus,
+.LargeButtonLeft,
+.LargeButtonLeft:focus,
+.LargeButtonMid,
+.LargeButtonMid:focus,
+.LargeButtonRight,
+.LargeButtonRight:focus,
+.CommandLeft,
+.CommandLeft:focus,
+.CommandMid,
+.CommandMid:focus,
+.CommandRight,
+.CommandRight:focus,
+.ButtonLeft,
+.ButtonLeft:focus,
+.ButtonMid,
+.ButtonMid:focus,
+.ButtonRight,
+.ButtonRight:focus,
+.AppCommandLeft,
+.AppCommandLeft:focus,
+.AppCommandMid,
+.AppCommandMid:focus,
+.AppCommandRight,
+.AppCommandRight:focus,
+.SearchModeFilter,
+.SearchModeFilter:focus,
+.minibuttonleft,
+.minibuttonleft:focus,
+.minibuttonmid,
+.minibuttonmid:focus,
+.minibuttonright,
+.minibuttonright:focus, {
+	background-color: rgba(197, 197, 197, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-right-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-left-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.Tab-first:hover,
+.Tab-middle:hover,
+.Tab-last:hover,
+.LargeButtonLeft:hover,
+.LargeButtonMid:hover,
+.LargeButtonRight:hover,
+.CommandLeft:hover,
+.CommandMid:hover,
+.CommandRight:hover,
+.ButtonLeft:hover,
+.ButtonMid:hover,
+.ButtonRight:hover,
+.AppCommandLeft:hover,
+.AppCommandMid:hover,
+.AppCommandRight:hover,
+.SearchModeFilter:hover,
+.minibuttonleft:hover,
+.minibuttonmid:hover,
+.minibuttonright:hover, {
+	background-color: rgba(240, 240, 240, 1);
+}
+
+.Tab-first:active,
+.Tab-first:active:focus,
+.Tab-first:active:focus:checked,
+.Tab-first:active:checked,
+.Tab-first:focus:checked,
+.Tab-first:checked,
+.Tab-middle:active,
+.Tab-middle:active:focus,
+.Tab-middle:active:focus:checked,
+.Tab-middle:active:checked,
+.Tab-middle:focus:checked,
+.Tab-middle:checked,
+.Tab-last:active,
+.Tab-last:active:focus,
+.Tab-last:active:focus:checked,
+.Tab-last:active:checked,
+.Tab-last:focus:checked,
+.Tab-last:checked,
+.LargeButtonLeft:active,
+.LargeButtonLeft:active:focus,
+.LargeButtonLeft:active:focus:checked,
+.LargeButtonLeft:active:checked,
+.LargeButtonLeft:focus:checked,
+.LargeButtonLeft:checked,
+.LargeButtonMid:active,
+.LargeButtonMid:active:focus,
+.LargeButtonMid:active:focus:checked,
+.LargeButtonMid:active:checked,
+.LargeButtonMid:focus:checked,
+.LargeButtonMid:checked,
+.LargeButtonRight:active,
+.LargeButtonRight:active:focus,
+.LargeButtonRight:active:focus:checked,
+.LargeButtonRight:active:checked,
+.LargeButtonRight:focus:checked,
+.LargeButtonRight:checked,
+.CommandLeft:active,
+.CommandLeft:active:focus,
+.CommandLeft:active:focus:checked,
+.CommandLeft:active:checked,
+.CommandLeft:focus:checked,
+.CommandLeft:checked,
+.CommandMid:active,
+.CommandMid:active:focus,
+.CommandMid:active:focus:checked,
+.CommandMid:active:checked,
+.CommandMid:focus:checked,
+.CommandMid:checked,
+.CommandRight:active,
+.CommandRight:active:focus,
+.CommandRight:active:focus:checked,
+.CommandRight:active:checked,
+.CommandRight:focus:checked,
+.CommandRight:checked,
+.ButtonLeft:active,
+.ButtonLeft:active:focus,
+.ButtonLeft:active:focus:checked,
+.ButtonLeft:active:checked,
+.ButtonLeft:focus:checked,
+.ButtonLeft:checked,
+.ButtonMid:active,
+.ButtonMid:active:focus,
+.ButtonMid:active:focus:checked,
+.ButtonMid:active:checked,
+.ButtonMid:focus:checked,
+.ButtonMid:checked,
+.ButtonRight:active,
+.ButtonRight:active:focus,
+.ButtonRight:active:focus:checked,
+.ButtonRight:active:checked,
+.ButtonRight:focus:checked,
+.ButtonRight:checked,
+.AppCommandLeft:active,
+.AppCommandLeft:active:focus,
+.AppCommandLeft:active:focus:checked,
+.AppCommandLeft:active:checked,
+.AppCommandLeft:focus:checked,
+.AppCommandLeft:checked,
+.AppCommandMid:active,
+.AppCommandMid:active:focus,
+.AppCommandMid:active:focus:checked,
+.AppCommandMid:active:checked,
+.AppCommandMid:focus:checked,
+.AppCommandMid:checked,
+.AppCommandRight:active,
+.AppCommandRight:active:focus,
+.AppCommandRight:active:focus:checked,
+.AppCommandRight:active:checked,
+.AppCommandRight:focus:checked,
+.AppCommandRight:checked,
+.SearchModeFilter:active,
+.SearchModeFilter:active:focus,
+.SearchModeFilter:active:focus:checked,
+.SearchModeFilter:active:checked,
+.SearchModeFilter:focus:checked,
+.SearchModeFilter:checked,
+.minibuttonleft:active,
+.minibuttonleft:active:focus,
+.minibuttonleft:active:focus:checked,
+.minibuttonleft:active:checked,
+.minibuttonleft:focus:checked,
+.minibuttonleft:checked,
+.minibuttonmid:active,
+.minibuttonmid:active:focus,
+.minibuttonmid:active:focus:checked,
+.minibuttonmid:active:checked,
+.minibuttonmid:focus:checked,
+.minibuttonmid:checked,
+.minibuttonright:active,
+.minibuttonright:active:focus,
+.minibuttonright:active:focus:checked,
+.minibuttonright:active:checked,
+.minibuttonright:focus:checked,
+.minibuttonright:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.Tab-first:hover:checked,
+.Tab-first:hover:focus:checked,
+.Tab-middle:hover:checked,
+.Tab-middle:hover:focus:checked,
+.Tab-last:hover:checked,
+.Tab-last:hover:focus:checked,
+.LargeButtonLeft:hover:checked,
+.LargeButtonLeft:hover:focus:checked,
+.LargeButtonMid:hover:checked,
+.LargeButtonMid:hover:focus:checked,
+.LargeButtonRight:hover:checked,
+.LargeButtonRight:hover:focus:checked,
+.CommandLeft:hover:checked,
+.CommandLeft:hover:focus:checked,
+.CommandMid:hover:checked,
+.CommandMid:hover:focus:checked,
+.CommandRight:hover:checked,
+.CommandRight:hover:focus:checked,
+.ButtonLeft:hover:checked,
+.ButtonLeft:hover:focus:checked,
+.ButtonMid:hover:checked,
+.ButtonMid:hover:focus:checked,
+.ButtonRight:hover:checked,
+.ButtonRight:hover:focus:checked,
+.AppCommandLeft:hover:checked,
+.AppCommandLeft:hover:focus:checked,
+.AppCommandMid:hover:checked,
+.AppCommandMid:hover:focus:checked,
+.AppCommandRight:hover:checked,
+.AppCommandRight:hover:focus:checked,
+.SearchModeFilter:hover:checked,
+.SearchModeFilter:hover:focus:checked,
+.minibuttonleft:hover:checked,
+.minibuttonleft:hover:focus:checked,
+.minibuttonmid:hover:checked,
+.minibuttonmid:hover:focus:checked,
+.minibuttonright:hover:checked,
+.minibuttonright:hover:focus:checked, {
+	background-color: rgba(254, 141, 064, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.MultiColumnTopBar, {
+	background-color: rgba(197, 197, 197, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px 0px 0px 0px;
+}
+
+.BoldLabel, {
+	color: rgba(254, 105, 003, 1);
+}
+
+.ToolbarBoldLabel, {
+	color: rgba(240, 240, 240, 1);
+}
+
+.Label, {
+	color: rgba(015, 015, 015, 1);
+}
+
+.ControlLabel:active, {
+	color: rgba(255, 141, 064, 1);
+}
+
+.ControlLabel:focus, {
+	color: rgba(254, 105, 003, 1);
+}
+
+.TextField,
+.BoldTextField,
+.ToolbarTextField,
+.TextFieldDropDown,
+.TextFieldDropDownText,
+.ToolbarSliderTextField,
+.ShurikenValue,
+.ShurikenObjectField,
+.ObjectField,
+.AnimationSelectionTextField, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.TextField:active,
+.TextField:hover,
+.TextField:focus,
+.BoldTextField:active,
+.BoldTextField:hover,
+.BoldTextField:focus,
+.ToolbarTextField:active,
+.ToolbarTextField:hover,
+.ToolbarTextField:focus,
+.TextFieldDropDown:active,
+.TextFieldDropDown:hover,
+.TextFieldDropDown:focus,
+.TextFieldDropDownText:active,
+.TextFieldDropDownText:hover,
+.TextFieldDropDownText:focus,
+.ToolbarSliderTextField:active,
+.ToolbarSliderTextField:hover,
+.ToolbarSliderTextField:focus,
+.ShurikenValue:active,
+.ShurikenValue:hover,
+.ShurikenValue:focus,
+.ShurikenObjectField:active,
+.ShurikenObjectField:hover,
+.ShurikenObjectField:focus,
+.ObjectField:active,
+.ObjectField:hover,
+.ObjectField:focus,
+.AnimationSelectionTextField:active,
+.AnimationSelectionTextField:hover,
+.AnimationSelectionTextField:focus, {
+	border-color: rgba(254, 105, 003, 1);
+	border-top-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.TextField:active:focus,
+.TextField:hover:focus,
+.TextField:active:hover:focus,
+.BoldTextField:active:focus,
+.BoldTextField:hover:focus,
+.BoldTextField:active:hover:focus,
+.ToolbarTextField:active:focus,
+.ToolbarTextField:hover:focus,
+.ToolbarTextField:active:hover:focus,
+.TextFieldDropDown:active:focus,
+.TextFieldDropDown:hover:focus,
+.TextFieldDropDown:active:hover:focus,
+.TextFieldDropDownText:active:focus,
+.TextFieldDropDownText:hover:focus,
+.TextFieldDropDownText:active:hover:focus,
+.ToolbarSliderTextField:active:focus,
+.ToolbarSliderTextField:hover:focus,
+.ToolbarSliderTextField:active:hover:focus,
+.ShurikenValue:active:focus,
+.ShurikenValue:hover:focus,
+.ShurikenValue:active:hover:focus,
+.ShurikenObjectField:active:focus,
+.ShurikenObjectField:hover:focus,
+.ShurikenObjectField:active:hover:focus,
+.ObjectField:active:focus,
+.ObjectField:hover:focus,
+.ObjectField:active:hover:focus,
+.AnimationSelectionTextField:active:focus,
+.AnimationSelectionTextField:hover:focus,
+.AnimationSelectionTextField:active:hover:focus, {
+	background-color: rgba(254, 231, 216, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-top-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.ObjectField:checked, {
+	background-color: rgba(254, 177, 127, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-top-color: rgba(254, 105, 003, 1);
+}
+
+.ColorField, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.ColorField:hover,
+.ColorField:hover:focus, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.ColorField:focus, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(254, 105, 003, 1);
+}
+
+.ObjectFieldButton, {
+	background-color: rgba(240, 240, 240, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px 0px 0px 0px;
+}
+
+.ObjectFieldButton:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.ObjectFieldButton:active,
+.ObjectFieldButton:checked, {
+	background-color: rgba(254, 105, 003, 1);
+}
+
+.FoldoutHeader,
+.FoldoutHeader:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(000, 000, 000, 1);
+	border-width: 1px 0px 1px 1px;
+}
+
+.FoldoutHeader:hover,
+.FoldoutHeader:hover:focus,
+.FoldoutHeader:hover:checked,
+.FoldoutHeader:hover:focus:checked,
+.FoldoutHeader:active,
+.FoldoutHeader:active:focus,
+.FoldoutHeader:active:checked,
+.FoldoutHeader:active:focus:checked, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.FoldoutHeader:hover,
+.FoldoutHeader:focus, {
+	color: rgba(240, 240, 240, 1);
+}
+
+.MiniPopup,
+.MiniPullDown,
+.ShurikenPopup, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.MiniPopup:active,
+.MiniPopup:hover,
+.MiniPopup:focus,
+.MiniPullDown:active,
+.MiniPullDown:hover,
+.MiniPullDown:focus,
+.ShurikenPopup:active,
+.ShurikenPopup:hover,
+.ShurikenPopup:focus, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-bottom-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.MiniPopup:active:focus,
+.MiniPopup:hover:focus,
+.MiniPullDown:active:focus,
+.MiniPullDown:hover:focus,
+.ShurikenPopup:active:focus,
+.ShurikenPopup:hover:focus, {
+	background-color: rgba(197, 180, 167, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-bottom-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.HorizontalScrollbar,
+.VerticalScrollbar, {
+	background-color: rgba(197, 197, 197, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-left-color: rgba(015, 015, 015, 1);
+}
+
+.HorizontalScrollbarLeftButton,
+.HorizontalScrollbarLeftButton:hover,
+.HorizontalScrollbarRightButton,
+.HorizontalScrollbarRightButton:hover,
+.VerticalScrollbarUpButton,
+.VerticalScrollbarUpButton:hover,
+.VerticalScrollbarDownButton,
+.VerticalScrollbarDownButton:hover, {
+	background-color: rgba(240, 240, 240, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-left-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.HorizontalScrollbarLeftButton:active,
+.HorizontalScrollbarRightButton:active,
+.VerticalScrollbarUpButton:active,
+.VerticalScrollbarDownButton:active, {
+	background-color: rgba(051, 051, 051, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.HorizontalScrollbarThumb,
+.HorizontalScrollbarThumb:hover,
+.VerticalScrollbarThumb,
+.VerticalScrollbarThumb:hover,
+.HorizontalMinMaxScrollbarThumb,
+.HorizontalMinMaxScrollbarThumb:hover, {
+	background-color: rgba(051, 051, 051, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px 0px 0px 0px;
+}
+
+.HorizontalScrollbarThumb:active,
+.VerticalScrollbarThumb:active,
+.HorizontalMinMaxScrollbarThumb:active, {
+	border-color: rgba(197, 197, 197, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.HorizontalSlider,
+.HorizontalSlider:disabled,
+.ToolbarSlider,
+.ToolbarSlider:disabled,
+.PreSlider,
+.PreSlider:disabled, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.LODSliderText, {
+	color: rgba(015, 015, 015, 1);
+}
+
+.HorizontalSliderThumb,
+.PreSliderThumb, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.HorizontalSliderThumb:active,
+.HorizontalSliderThumb:hover,
+.PreSliderThumb:active,
+.PreSliderThumb:hover, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.HorizontalSliderThumb:focus,
+.PreSliderThumb:focus, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(254, 105, 003, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.HorizontalSliderThumbExtent:active,
+.HorizontalSliderThumbExtent:focus, {
+	background-color: rgba(000, 000, 000, 0);
+}
+
+.Toggle,
+.Toggle:disabled,
+.ShurikenToggle,
+.ShurikenToggle:disabled, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Unchecked.png");
+}
+
+.Toggle:active,
+.Toggle:hover,
+.Toggle:focus,
+.ShurikenToggle:active,
+.ShurikenToggle:hover,
+.ShurikenToggle:focus, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Hover.png");
+}
+
+.Toggle:active:focus,
+.Toggle:hover:focus,
+.ShurikenToggle:active:focus,
+.ShurikenToggle:hover:focus, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Hover.Focus.png");
+}
+
+.Toggle:checked,
+.Toggle:checked:disabled,
+.ShurikenToggle:checked,
+.ShurikenToggle:checked:disabled, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Checked.png");
+}
+
+.Toggle:active:checked,
+.Toggle:hover:checked,
+.Toggle:focus:checked,
+.ShurikenToggle:active:checked,
+.ShurikenToggle:hover:checked,
+.ShurikenToggle:focus:checked, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Hover.Checked.png");
+}
+
+.Toggle:active:focus:checked,
+.Toggle:hover:focus:checked,
+.ShurikenToggle:active:focus:checked,
+.ShurikenToggle:hover:focus:checked, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Checked.Hover.Focus.png");
+}
+
+.ToggleMixed, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Mixed.png");
+}
+
+.ToggleMixed:active,
+.ToggleMixed:hover,
+.ToggleMixed:focus, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Mixed.Hover.png");
+}
+
+.ToggleMixed:active:focus,
+.ToggleMixed:hover:focus,
+.ToggleMixed:active:hover:focus, {
+	background-image: resource("Assets/Emp37.Editor-Theme/StyleSheets/Icons/Asiimov/Toggle.Mixed.Hover.Focus.png");
+}
+
+.SceneTopBarBg, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.WhiteBackground, {
+	background-color: rgba(015, 015, 015, 0.05098039);
+}
+
+.PR-PrefabLabel,
+.PR-PrefabLabel:focus, {
+	color: rgba(254, 105, 003, 1);
+}
+
+.IN-BigTitle,
+.IN-Footer, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.InsertionMarker, {
+	background-color: rgba(015, 015, 015, 1);
+}
+
+.IN-Title,
+.IN-Title:checked, {
+	background-color: rgba(197, 197, 197, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-bottom-color: rgba(015, 015, 015, 1);
+}
+
+.IN-Title, {
+	border-width: 1px 0px 0px 0px;
+}
+
+.IN-Title:checked, {
+	border-width: 1px 0px 1px 0px;
+}
+
+.IN-Title:hover,
+.IN-Title:hover:checked,
+.IN-Title:hover:focus:checked,
+.IN-Title:active,
+.IN-Title:active:checked,
+.IN-Title:active:focus:checked, {
+	background-color: rgba(254, 105, 003, 1);
+}
+
+.IN-TitleText,
+.IN-TitleText:focus, {
+	color: rgba(015, 015, 015, 1);
+}
+
+.ProjectBrowserTopBarBg,
+.ProjectBrowserBottomBarBg, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.ArrowNavigationRight,
+.ArrowNavigationRight:hover, {
+	background-color: rgba(000, 000, 000, 0);
+}
+
+.ExposablePopupItem:hover, {
+	background-color: rgba(197, 197, 197, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.ExposablePopupItem:active,
+.ExposablePopupItem:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.ProjectBrowserGridLabel:checked, {
+	background-color: rgba(197, 197, 197, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 0px 0px 0px 0px;
+}
+
+.ProjectBrowserGridLabel:focus:checked, {
+	background-color: rgba(051, 051, 051, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.OL-ResultLabel:checked, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.OL-ResultLabel:focus:checked, {
+	background-color: rgba(051, 051, 051, 1);
+	color: rgba(240, 240, 240, 1);
+}
+
+.RL-Background,
+.RL-Empty-Header,
+.RL-Footer, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.RL-Element:active:checked, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.RL-Element:active:focus:checked, {
+	background-color: rgba(254, 105, 003, 0.5019608);
+	border-color: rgba(254, 105, 003, 1);
+	border-width: 1px 0px 1px 0px;
+}
+
+.RL-Header, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.RL-FooterButton:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.RL-FooterButton:active, {
+	background-color: rgba(254, 105, 003, 1);
+}
+
+.Toolbar,
+.PreToolbar,
+.ToolbarBottom,
+.AnimClipToolbar,
+.AnimPlayToolbar, {
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.Toolbar, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.ToolbarBottom,
+.AnimClipToolbar,
+.AnimPlayToolbar, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.PreToolbar, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.TE-Toolbar, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 0px 1px 1px;
+}
+
+.TE-ElementBackground,
+.TE-DefaultTime, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 0px 1px;
+}
+
+.toolbarbutton,
+.toolbarbuttonRight,
+.AnimClipToolbarButton,
+.ToolbarDropDownToggleButton,
+.TimeScrubberButton, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 0px 0px 1px;
+}
+
+.toolbarbutton:hover,
+.toolbarbuttonRight:hover,
+.AnimClipToolbarButton:hover,
+.ToolbarDropDownToggleButton:hover,
+.TimeScrubberButton:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.toolbarbutton:active,
+.toolbarbutton:checked,
+.toolbarbuttonRight:active,
+.toolbarbuttonRight:checked,
+.AnimClipToolbarButton:active,
+.AnimClipToolbarButton:checked,
+.ToolbarDropDownToggleButton:active,
+.ToolbarDropDownToggleButton:checked,
+.TimeScrubberButton:active,
+.TimeScrubberButton:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 0px 0px 1px;
+}
+
+.ToolbarDropDown,
+.ToolbarDropDownToggle,
+.ToolbarPopup,
+.ToolbarPopupLeft,
+.ToolbarPopupRight,
+.ToolbarDropDownToggleLeft,
+.ToolbarDropDownToggleRight,
+.PreDropDown,
+.AnimClipToolbarPopup, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 1px 0px 1px;
+}
+
+.ToolbarDropDown:hover,
+.ToolbarDropDownToggle:hover,
+.ToolbarPopup:hover,
+.ToolbarPopupLeft:hover,
+.ToolbarPopupRight:hover,
+.ToolbarDropDownToggleLeft:hover,
+.ToolbarDropDownToggleRight:hover,
+.PreDropDown:hover,
+.AnimClipToolbarPopup:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.ToolbarDropDown:active,
+.ToolbarDropDown:checked,
+.ToolbarDropDownToggle:active,
+.ToolbarDropDownToggle:checked,
+.ToolbarPopup:active,
+.ToolbarPopup:checked,
+.ToolbarPopupLeft:active,
+.ToolbarPopupLeft:checked,
+.ToolbarPopupRight:active,
+.ToolbarPopupRight:checked,
+.ToolbarDropDownToggleLeft:active,
+.ToolbarDropDownToggleLeft:checked,
+.ToolbarDropDownToggleRight:active,
+.ToolbarDropDownToggleRight:checked,
+.PreDropDown:active,
+.PreDropDown:checked,
+.AnimClipToolbarPopup:active,
+.AnimClipToolbarPopup:checked, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 1px 0px 1px;
+}
+
+.ToolbarCreateAddNewDropDown,
+.TE-ToolbarDropDown, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 0px 1px 0px 1px;
+}
+
+.ToolbarCreateAddNewDropDown:hover,
+.TE-ToolbarDropDown:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.TimeScrubber, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+}
+
+.ToolbarSeachTextField,
+.ToolbarSeachTextField:hover,
+.ToolbarSearchTextField,
+.ToolbarSearchTextField:hover,
+.ToolbarSeachTextFieldPopup,
+.ToolbarSeachTextFieldPopup:hover,
+.ToolbarSearchTextFieldPopup,
+.ToolbarSearchTextFieldPopup:hover,
+.ToolbarSearchTextFieldWithJump,
+.ToolbarSearchTextFieldWithJump:hover,
+.ToolbarSearchTextFieldWithJump,
+.ToolbarSearchTextFieldWithJump:hover,
+.ToolbarSearchTextFieldWithJumpPopup,
+.ToolbarSearchTextFieldWithJumpPopup:hover,
+.SearchTextField,
+.SearchTextField:hover, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.ToolbarSeachTextField:active,
+.ToolbarSeachTextField:focus,
+.ToolbarSeachTextField:active:focus,
+.ToolbarSeachTextField:hover:focus,
+.ToolbarSearchTextField:active,
+.ToolbarSearchTextField:focus,
+.ToolbarSearchTextField:active:focus,
+.ToolbarSearchTextField:hover:focus,
+.ToolbarSeachTextFieldPopup:active,
+.ToolbarSeachTextFieldPopup:focus,
+.ToolbarSeachTextFieldPopup:active:focus,
+.ToolbarSeachTextFieldPopup:hover:focus,
+.ToolbarSearchTextFieldPopup:active,
+.ToolbarSearchTextFieldPopup:focus,
+.ToolbarSearchTextFieldPopup:active:focus,
+.ToolbarSearchTextFieldPopup:hover:focus,
+.ToolbarSearchTextFieldWithJump:active,
+.ToolbarSearchTextFieldWithJump:focus,
+.ToolbarSearchTextFieldWithJump:active:focus,
+.ToolbarSearchTextFieldWithJump:hover:focus,
+.ToolbarSearchTextFieldWithJump:active,
+.ToolbarSearchTextFieldWithJump:focus,
+.ToolbarSearchTextFieldWithJump:active:focus,
+.ToolbarSearchTextFieldWithJump:hover:focus,
+.ToolbarSearchTextFieldWithJumpPopup:active,
+.ToolbarSearchTextFieldWithJumpPopup:focus,
+.ToolbarSearchTextFieldWithJumpPopup:active:focus,
+.ToolbarSearchTextFieldWithJumpPopup:hover:focus,
+.SearchTextField:active,
+.SearchTextField:focus,
+.SearchTextField:active:focus,
+.SearchTextField:hover:focus, {
+	background-color: rgba(254, 231, 216, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-top-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 1px 1px;
+}
+
+.ToolbarSearchTextFieldJumpButton, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 0px;
+}
+
+.ToolbarSearchTextFieldJumpButton:hover, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.ToolbarSearchTextFieldJumpButton:active, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 1px 1px 1px 0px;
+}
+
+.quick-search-panel-background, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.quick-search-tab-background, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 1px 0px 1px 0px;
+}
+
+.quick-search-tips-section, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.quick-search-search-field, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.quick-search-tab, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 1px 0px 2px 0px;
+}
+
+.quick-search-tab:hover, {
+	border-width: 1px 0px 2px 0px;
+}
+
+.quick-search-tab:active, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-width: 1px 0px 2px 0px;
+}
+
+.quick-search-item-background1, {
+	background-color: rgba(254, 105, 003, 0.05098039);
+}
+
+.quick-search-item-background2, {
+	background-color: rgba(254, 105, 003, 0.1019608);
+}
+
+.quick-search-item-background1:hover,
+.quick-search-item-background2:hover, {
+	background-color: rgba(254, 105, 003, 0.5019608);
+}
+
+.quick-search-item-selected-background,
+.quick-search-item-selected-background:hover, {
+	background-color: rgba(254, 105, 003, 0.7490196);
+}
+
+.ObjectPickerResultsOdd, {
+	background-color: rgba(254, 216, 191, 1);
+}
+
+.ObjectPickerResultsEven, {
+	background-color: rgba(255, 179, 128, 1);
+}
+
+.ObjectPickerResultsOdd:checked,
+.ObjectPickerResultsEven:checked, {
+	background-color: rgba(254, 105, 003, 1);
+}
+
+.ShurikenEmitterTitle, {
+	background-color: rgba(254, 105, 003, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 0px 1px;
+}
+
+.ShurikenModuleTitle, {
+	background-color: rgba(197, 197, 197, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.ShurikenModuleTitle:active, {
+	background-color: rgba(254, 105, 003, 1);
+}
+
+.ShurikenModuleBg, {
+	background-color: rgba(240, 240, 240, 1);
+	border-color: rgba(015, 015, 015, 1);
+	border-radius: 0px 0px 0px 0px;
+	border-width: 1px 1px 1px 1px;
+}
+
+.ShurikenEffectBg, {
+	background-color: rgba(000, 000, 000, 0);
+}
+
+.TV-Selection, {
+	background-color: rgba(197, 197, 197, 1);
+}
+
+.TV-Selection:focus:checked, {
+	background-color: rgba(051, 051, 051, 1);
+}
+
+.TV-Line:hover, {
+	background-color: rgba(254, 105, 003, 0.2509804);
+}
+
+.AnimClipToolbarButton,
+.AnimClipToolbarButton:hover,
+.AnimClipToolbarButton:active, {
+	border-width: 0px 0px 1px 1px;
+}
+
+.CommandLeft,
+.CommandLeft:active,
+.CommandLeft:hover, {
+	border-width: 1px 3px 1px 1px;
+}
+
+.CommandLeft:checked,
+.CommandLeft:active:checked,
+.CommandLeft:hover:checked, {
+	border-width: 1px 2px 1px 1px;
+}

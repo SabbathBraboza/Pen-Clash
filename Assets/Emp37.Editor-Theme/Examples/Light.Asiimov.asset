@@ -1,0 +1,5994 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576f9f6ec75a8534ba6048535868b776, type: 3}
+  m_Name: Light.Asiimov
+  m_EditorClassIdentifier: 
+  Rules:
+  - Description: Animation.Misc [LP Separator, TR BG]
+    Styles:
+    - Types:
+      - AnimLeftPaneSeparator
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 2800000, guid: a9f40203004adae448f869c8c0f007b8, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - TimeRulerBackground
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 2800000, guid: a9f40203004adae448f869c8c0f007b8, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Animation.Row [Odd - Even]
+    Styles:
+    - Types:
+      - AnimationRowOdd
+      - AnimationRowEven
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Animator.Breadcrumb.BG
+    Styles:
+    - Types:
+      - GUIEditor-BreadcrumbLeftBackground
+      - GUIEditor-BreadcrumbMidBackground
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 12
+        m_Right: 12
+        m_Top: 12
+        m_Bottom: 12
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Console.Badge
+    Styles:
+    - Types:
+      - CN-CountBadge
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Console.Entry.Background
+    Styles:
+    - Types:
+      - CN-EntryBackOdd
+      - CN-EntryBackEven
+      States: 10000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 3204671998
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - CN-EntryBackOdd
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 218327550
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - CN-EntryBackEven
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 436431358
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Console.Status.Info
+    Styles:
+    - Types:
+      - CN-StatusInfo
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4294967295
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - CN-StatusWarn
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278430462
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - CN-StatusError
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278190335
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Console.Entry.Icon
+    Styles:
+    - Types:
+      - CN-EntryInfoIcon
+      States: 00000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: 9a1966727d959b4429e151fba827b26d, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Editor.Outline [App Toolbar, Dock Area]
+    Styles:
+    - Types:
+      - AppToolbar
+      - dockarea
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Editor.Background [Scroll View, Tab Window]
+    Styles:
+    - Types:
+      - ScrollView
+      - ScrollViewAlt
+      - TabWindowBackground
+      States: 00000000
+      Flags: 258
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Editor.Dock.Header
+    Styles:
+    - Types:
+      - dockHeader
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Editor.Dock.Dragtab [incl. First]
+    Styles:
+    - Types:
+      - dragtab
+      - dragtab-first
+      States: 00000000
+      Flags: 902
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 2
+    - Types:
+      - dragtab
+      - dragtab-first
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 2
+    - Types:
+      - dragtab
+      - dragtab-first
+      States: 0100000010000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 2
+  - Description: Editor.Dock.Dragtab.Scroller [Next, Prev]
+    Styles:
+    - Types:
+      - dragtab-scroller-next
+      - dragtab-scroller-prev
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+    - Types:
+      - dragtab-scroller-next
+      - dragtab-scroller-prev
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+  - Description: Editor.Ping
+    Styles:
+    - Types:
+      - OL-Ping
+      - OL-MiniPing
+      - TV-Ping
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4290763262
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Editor.StatusBar.Icon
+    Styles:
+    - Types:
+      - StatusBarIcon
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - StatusBarIcon
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - StatusBarIcon
+      States: 01000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Editor.SelectionRect
+    Styles:
+    - Types:
+      - SelectionRect
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 1073965566
+      border_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Editor.Window
+    Styles:
+    - Types:
+      - Window
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 2
+        m_Right: 2
+        m_Top: 2
+        m_Bottom: 2
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: GUI.Box
+    Styles:
+    - Types:
+      - Box
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - HelpBox
+      - FrameBox
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - CN-Box
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 0
+  - Description: GUI.Box.Color.Picker
+    Styles:
+    - Types:
+      - ColorPickerBox
+      States: 00000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 419654142
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ColorPickerBox
+      States: 020000000400000006000000
+      Flags: 260
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Button
+    Styles:
+    - Types:
+      - Button
+      - AC-Button
+      - LargeButton
+      - MiniToolbarButton
+      - minibutton
+      - DropDownToggleButton
+      - DropDownButton
+      States: 00000000
+      Flags: 678
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Button
+      - AC-Button
+      - LargeButton
+      - MiniToolbarButton
+      - minibutton
+      - DropDownToggleButton
+      - DropDownButton
+      States: 02000000
+      Flags: 514
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Button
+      - AC-Button
+      - LargeButton
+      - MiniToolbarButton
+      - minibutton
+      - DropDownToggleButton
+      - DropDownButton
+      States: 010000001000000011000000
+      Flags: 302
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Button.Command.App
+    Styles:
+    - Types:
+      - AppCommand
+      States: 0000000002000000
+      Flags: 422
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - AppCommand
+      States: 0100000010000000
+      Flags: 294
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Button.EditMode
+    Styles:
+    - Types:
+      - EditModeSingleButton
+      States: 00000000
+      Flags: 166
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - EditModeSingleButton
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - EditModeSingleButton
+      States: 0100000010000000
+      Flags: 14
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - EditModeSingleButton
+      States: 12000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4282420734
+      border_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Button.Group
+    Styles:
+    - Types:
+      - Tab-first
+      - Tab-middle
+      - Tab-last
+      - LargeButtonLeft
+      - LargeButtonMid
+      - LargeButtonRight
+      - CommandLeft
+      - CommandMid
+      - CommandRight
+      - ButtonLeft
+      - ButtonMid
+      - ButtonRight
+      - AppCommandLeft
+      - AppCommandMid
+      - AppCommandRight
+      - SearchModeFilter
+      - minibuttonleft
+      - minibuttonmid
+      - minibuttonright
+      States: 0000000004000000
+      Flags: 506
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - Tab-first
+      - Tab-middle
+      - Tab-last
+      - LargeButtonLeft
+      - LargeButtonMid
+      - LargeButtonRight
+      - CommandLeft
+      - CommandMid
+      - CommandRight
+      - ButtonLeft
+      - ButtonMid
+      - ButtonRight
+      - AppCommandLeft
+      - AppCommandMid
+      - AppCommandRight
+      - SearchModeFilter
+      - minibuttonleft
+      - minibuttonmid
+      - minibuttonright
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - Tab-first
+      - Tab-middle
+      - Tab-last
+      - LargeButtonLeft
+      - LargeButtonMid
+      - LargeButtonRight
+      - CommandLeft
+      - CommandMid
+      - CommandRight
+      - ButtonLeft
+      - ButtonMid
+      - ButtonRight
+      - AppCommandLeft
+      - AppCommandMid
+      - AppCommandRight
+      - SearchModeFilter
+      - minibuttonleft
+      - minibuttonmid
+      - minibuttonright
+      States: 010000000500000015000000110000001400000010000000
+      Flags: 302
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - Tab-first
+      - Tab-middle
+      - Tab-last
+      - LargeButtonLeft
+      - LargeButtonMid
+      - LargeButtonRight
+      - CommandLeft
+      - CommandMid
+      - CommandRight
+      - ButtonLeft
+      - ButtonMid
+      - ButtonRight
+      - AppCommandLeft
+      - AppCommandMid
+      - AppCommandRight
+      - SearchModeFilter
+      - minibuttonleft
+      - minibuttonmid
+      - minibuttonright
+      States: 1200000016000000
+      Flags: 302
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4282420734
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Column.Multi.Header
+    Styles:
+    - Types:
+      - MultiColumnTopBar
+      States: 00000000
+      Flags: 386
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Label.Bold
+    Styles:
+    - Types:
+      - BoldLabel
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 1089532144
+      border_color:
+        serializedVersion: 2
+        rgba: 1074728719
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+    - Types:
+      - ToolbarBoldLabel
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 1089532144
+      border_color:
+        serializedVersion: 2
+        rgba: 1074728719
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+    - Types:
+      - Label
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 1089532144
+      border_color:
+        serializedVersion: 2
+        rgba: 1074728719
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+  - Description: GUI.Label.Control
+    Styles:
+    - Types:
+      - ControlLabel
+      States: 01000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282420735
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ControlLabel
+      States: 04000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Field.Text [incl. Object]
+    Styles:
+    - Types:
+      - TextField
+      - BoldTextField
+      - ToolbarTextField
+      - TextFieldDropDown
+      - TextFieldDropDownText
+      - ToolbarSliderTextField
+      - ShurikenValue
+      - ShurikenObjectField
+      - ObjectField
+      - AnimationSelectionTextField
+      States: 00000000
+      Flags: 142
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - TextField
+      - BoldTextField
+      - ToolbarTextField
+      - TextFieldDropDown
+      - TextFieldDropDownText
+      - ToolbarSliderTextField
+      - ShurikenValue
+      - ShurikenObjectField
+      - ObjectField
+      - AnimationSelectionTextField
+      States: 010000000200000004000000
+      Flags: 268
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - TextField
+      - BoldTextField
+      - ToolbarTextField
+      - TextFieldDropDown
+      - TextFieldDropDownText
+      - ToolbarSliderTextField
+      - ShurikenValue
+      - ShurikenObjectField
+      - ObjectField
+      - AnimationSelectionTextField
+      States: 050000000600000007000000
+      Flags: 270
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4292405246
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ObjectField
+      States: 10000000
+      Flags: 14
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4286558718
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Field.Color
+    Styles:
+    - Types:
+      - ColorField
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ColorField
+      States: 0200000006000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ColorField
+      States: 04000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Field.Object.Button
+    Styles:
+    - Types:
+      - ObjectFieldButton
+      States: 00000000
+      Flags: 386
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ObjectFieldButton
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ObjectFieldButton
+      States: 0100000010000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Foldout.Header
+    Styles:
+    - Types:
+      - FoldoutHeader
+      States: 0000000010000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4278190080
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - FoldoutHeader
+      States: 0200000006000000120000001600000001000000050000001100000015000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4278190080
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - FoldoutHeader
+      States: 0200000004000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4278190080
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Popup
+    Styles:
+    - Types:
+      - MiniPopup
+      - MiniPullDown
+      - ShurikenPopup
+      States: 00000000
+      Flags: 166
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - MiniPopup
+      - MiniPullDown
+      - ShurikenPopup
+      States: 010000000200000004000000
+      Flags: 294
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - MiniPopup
+      - MiniPullDown
+      - ShurikenPopup
+      States: 0500000006000000
+      Flags: 294
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4289180869
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Scrollbar
+    Styles:
+    - Types:
+      - HorizontalScrollbar
+      - VerticalScrollbar
+      States: 00000000
+      Flags: 74
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Scrollbar.Button
+    Styles:
+    - Types:
+      - HorizontalScrollbarLeftButton
+      - HorizontalScrollbarRightButton
+      - VerticalScrollbarUpButton
+      - VerticalScrollbarDownButton
+      States: 0000000002000000
+      Flags: 202
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - HorizontalScrollbarLeftButton
+      - HorizontalScrollbarRightButton
+      - VerticalScrollbarUpButton
+      - VerticalScrollbarDownButton
+      States: 01000000
+      Flags: 130
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Scrollbar.Thumb
+    Styles:
+    - Types:
+      - HorizontalScrollbarThumb
+      - VerticalScrollbarThumb
+      - HorizontalMinMaxScrollbarThumb
+      States: 0000000002000000
+      Flags: 386
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - HorizontalScrollbarThumb
+      - VerticalScrollbarThumb
+      - HorizontalMinMaxScrollbarThumb
+      States: 01000000
+      Flags: 260
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Slider
+    Styles:
+    - Types:
+      - HorizontalSlider
+      - ToolbarSlider
+      - PreSlider
+      States: 0000000040000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Slider.Text.LOD
+    Styles:
+    - Types:
+      - LODSliderText
+      States: 00000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Slider.Thumb
+    Styles:
+    - Types:
+      - HorizontalSliderThumb
+      - PreSliderThumb
+      States: 00000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - HorizontalSliderThumb
+      - PreSliderThumb
+      States: 0100000002000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - HorizontalSliderThumb
+      - PreSliderThumb
+      States: 04000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: GUI.Slider.Thumb.Extent
+    Styles:
+    - Types:
+      - HorizontalSliderThumbExtent
+      States: 0100000004000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Toggle
+    Styles:
+    - Types:
+      - Toggle
+      - ShurikenToggle
+      States: 0000000040000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: 43732cffba805284a8e689e1858ca7ff, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Toggle
+      - ShurikenToggle
+      States: 010000000200000004000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: 2de71728fac1f3f4f874a0515df8cdd3, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Toggle
+      - ShurikenToggle
+      States: 0500000006000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: 2643d3a45db3e46458d2bf405280c748, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Toggle
+      - ShurikenToggle
+      States: 1000000050000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: eed2b15b367a7f942b55ad2f107063ed, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Toggle
+      - ShurikenToggle
+      States: 110000001200000014000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: fa140c27140887c4bbc8ded0012a86fc, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - Toggle
+      - ShurikenToggle
+      States: 1500000016000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: d027be397be541045aec9ca53e2dc009, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: GUI.Toggle.Mixed
+    Styles:
+    - Types:
+      - ToggleMixed
+      States: 00000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: ca0b1802876343d48b35a6a03e00036f, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ToggleMixed
+      States: 010000000200000004000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: 6f8c25929c347ed43a2b6ac5c1cd3060, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ToggleMixed
+      States: 050000000600000007000000
+      Flags: 1
+      background_image: {fileID: 2800000, guid: b9b5d8864ffea5f4bb1c34e57200ab9c, type: 3}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Hierarchy [Scene Top, White BG]
+    Styles:
+    - Types:
+      - SceneTopBarBg
+      States: 00000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - WhiteBackground
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 219090703
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Hierarchy.Prefab.Label
+    Styles:
+    - Types:
+      - PR-PrefabLabel
+      States: 0000000004000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Inspector.Background [Big Title, Footer]
+    Styles:
+    - Types:
+      - IN-BigTitle
+      - IN-Footer
+      States: 00000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Inspector.Marker.Insertion
+    Styles:
+    - Types:
+      - InsertionMarker
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Inspector.Title
+    Styles:
+    - Types:
+      - IN-Title
+      States: 0000000010000000
+      Flags: 42
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+    - Types:
+      - IN-Title
+      States: 00000000
+      Flags: 256
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4286414205
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4278190335
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 0
+    - Types:
+      - IN-Title
+      States: 10000000
+      Flags: 256
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4286414205
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4278190335
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - IN-Title
+      States: 020000001200000016000000010000001100000015000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4278190335
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Inspector.Title.Text
+    Styles:
+    - Types:
+      - IN-TitleText
+      States: 0000000004000000
+      Flags: 512
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Project.Browser.Bar.BG [Top - Bottom]
+    Styles:
+    - Types:
+      - ProjectBrowserTopBarBg
+      - ProjectBrowserBottomBarBg
+      States: 00000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Project.Browser.Bar.Arrow [Nav Right]
+    Styles:
+    - Types:
+      - ArrowNavigationRight
+      States: 0000000002000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Project.ExposableItem
+    Styles:
+    - Types:
+      - ExposablePopupItem
+      States: 02000000
+      Flags: 130
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ExposablePopupItem
+      States: 0100000010000000
+      Flags: 130
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Project.Browser.Label.Grid
+    Styles:
+    - Types:
+      - ProjectBrowserGridLabel
+      States: 10000000
+      Flags: 386
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ProjectBrowserGridLabel
+      States: 14000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Project.Browser.Label.OL
+    Styles:
+    - Types:
+      - OL-ResultLabel
+      States: 10000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - OL-ResultLabel
+      States: 14000000
+      Flags: 514
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: RL.Body
+    Styles:
+    - Types:
+      - RL-Background
+      - RL-Empty-Header
+      - RL-Footer
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: RL.Element
+    Styles:
+    - Types:
+      - RL-Element
+      States: 11000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - RL-Element
+      States: 15000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 2147707390
+      border_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+  - Description: RL.Header
+    Styles:
+    - Types:
+      - RL-Header
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: RL.Footer Button
+    Styles:
+    - Types:
+      - RL-FooterButton
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - RL-FooterButton
+      States: 01000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Toolbar [GUI, Pre, Anim]
+    Styles:
+    - Types:
+      - Toolbar
+      - PreToolbar
+      - ToolbarBottom
+      - AnimClipToolbar
+      - AnimPlayToolbar
+      States: 00000000
+      Flags: 4
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - Toolbar
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ToolbarBottom
+      - AnimClipToolbar
+      - AnimPlayToolbar
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - PreToolbar
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Toolbar.TE
+    Styles:
+    - Types:
+      - TE-Toolbar
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+    - Types:
+      - TE-ElementBackground
+      - TE-DefaultTime
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 0
+  - Description: Toolbar.Button
+    Styles:
+    - Types:
+      - toolbarbutton
+      - toolbarbuttonRight
+      - AnimClipToolbarButton
+      - ToolbarDropDownToggleButton
+      - TimeScrubberButton
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - toolbarbutton
+      - toolbarbuttonRight
+      - AnimClipToolbarButton
+      - ToolbarDropDownToggleButton
+      - TimeScrubberButton
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - toolbarbutton
+      - toolbarbuttonRight
+      - AnimClipToolbarButton
+      - ToolbarDropDownToggleButton
+      - TimeScrubberButton
+      States: 0100000010000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Toolbar.Dropdown [incl. Popup]
+    Styles:
+    - Types:
+      - ToolbarDropDown
+      - ToolbarDropDownToggle
+      - ToolbarPopup
+      - ToolbarPopupLeft
+      - ToolbarPopupRight
+      - ToolbarDropDownToggleLeft
+      - ToolbarDropDownToggleRight
+      - PreDropDown
+      - AnimClipToolbarPopup
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ToolbarDropDown
+      - ToolbarDropDownToggle
+      - ToolbarPopup
+      - ToolbarPopupLeft
+      - ToolbarPopupRight
+      - ToolbarDropDownToggleLeft
+      - ToolbarDropDownToggleRight
+      - PreDropDown
+      - AnimClipToolbarPopup
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ToolbarDropDown
+      - ToolbarDropDownToggle
+      - ToolbarPopup
+      - ToolbarPopupLeft
+      - ToolbarPopupRight
+      - ToolbarDropDownToggleLeft
+      - ToolbarDropDownToggleRight
+      - PreDropDown
+      - AnimClipToolbarPopup
+      States: 0100000010000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Toolbar.CreateNewDropdown
+    Styles:
+    - Types:
+      - ToolbarCreateAddNewDropDown
+      - TE-ToolbarDropDown
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ToolbarCreateAddNewDropDown
+      - TE-ToolbarDropDown
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Toolbar.Pre.TimeScrubber
+    Styles:
+    - Types:
+      - TimeScrubber
+      States: 00000000
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: Toolbar.Search.Field.Text
+    Styles:
+    - Types:
+      - ToolbarSeachTextField
+      - ToolbarSearchTextField
+      - ToolbarSeachTextFieldPopup
+      - ToolbarSearchTextFieldPopup
+      - ToolbarSearchTextFieldWithJump
+      - ToolbarSearchTextFieldWithJump
+      - ToolbarSearchTextFieldWithJumpPopup
+      - SearchTextField
+      States: 0000000002000000
+      Flags: 398
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ToolbarSeachTextField
+      - ToolbarSearchTextField
+      - ToolbarSeachTextFieldPopup
+      - ToolbarSearchTextFieldPopup
+      - ToolbarSearchTextFieldWithJump
+      - ToolbarSearchTextFieldWithJump
+      - ToolbarSearchTextFieldWithJumpPopup
+      - SearchTextField
+      States: 01000000040000000500000006000000
+      Flags: 270
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4292405246
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Toolbar.Search.Field.Text.Button
+    Styles:
+    - Types:
+      - ToolbarSearchTextFieldJumpButton
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ToolbarSearchTextFieldJumpButton
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ToolbarSearchTextFieldJumpButton
+      States: 01000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: QuickSearch.Background [Panel, Tab, Tips]
+    Styles:
+    - Types:
+      - quick-search-panel-background
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - quick-search-tab-background
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - quick-search-tips-section
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: QuickSearch.SearchField
+    Styles:
+    - Types:
+      - quick-search-search-field
+      States: 00000000
+      Flags: 134
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: QuickSearch.Tab
+    Styles:
+    - Types:
+      - quick-search-tab
+      States: 00000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 2
+    - Types:
+      - quick-search-tab
+      States: 02000000
+      Flags: 256
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 2
+    - Types:
+      - quick-search-tab
+      States: 01000000
+      Flags: 262
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 1
+        m_Bottom: 2
+  - Description: QuickSearch.Item.Background
+    Styles:
+    - Types:
+      - quick-search-item-background1
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 218327550
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - quick-search-item-background2
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 436431358
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - quick-search-item-background1
+      - quick-search-item-background2
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 2147707390
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - quick-search-item-selected-background
+      States: 0000000002000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 3204671998
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Settings.Quality.ObjectPickerResults
+    Styles:
+    - Types:
+      - ObjectPickerResultsOdd
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4290763006
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ObjectPickerResultsEven
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4286624767
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - ObjectPickerResultsOdd
+      - ObjectPickerResultsEven
+      States: 10000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: Shuriken.Title
+    Styles:
+    - Types:
+      - ShurikenEmitterTitle
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 0
+    - Types:
+      - ShurikenModuleTitle
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ShurikenModuleTitle
+      States: 01000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4278413822
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: Shuriken.Background
+    Styles:
+    - Types:
+      - ShurikenModuleBg
+      States: 00000000
+      Flags: 390
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4293980400
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - ShurikenEffectBg
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 4279176975
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 1
+        m_Top: 1
+        m_Bottom: 1
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: TV.Selection
+    Styles:
+    - Types:
+      - TV-Selection
+      States: 00000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4291151301
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - TV-Selection
+      States: 14000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 4281545523
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: TV.Line
+    Styles:
+    - Types:
+      - TV-Line
+      States: 02000000
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 1073965566
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  - Description: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    Styles: []
+  - Description: '[OVERRIDE: AnimClipToolbarButton]'
+    Styles:
+    - Types:
+      - AnimClipToolbarButton
+      States: 000000000200000001000000
+      Flags: 256
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 1
+  - Description: '[OVERRIDE: CommandLeft]'
+    Styles:
+    - Types:
+      - CommandLeft
+      States: 000000000100000002000000
+      Flags: 256
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 3
+        m_Top: 1
+        m_Bottom: 1
+    - Types:
+      - CommandLeft
+      States: 100000001100000012000000
+      Flags: 256
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 0
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 1
+        m_Right: 2
+        m_Top: 1
+        m_Bottom: 1
+  - Description: 
+    Styles: []
+  _quickApply: 0

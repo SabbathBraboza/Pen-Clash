@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37290922a024ab4b8f4b61b7c4506a7, type: 3}
+  m_Name: New Dark Theme
+  m_EditorClassIdentifier: 
+  Rules:
+  - Description: 
+    Styles:
+    - Types:
+      - 
+      States: ffffffff
+      Flags: 2
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 197379
+      border_color:
+        serializedVersion: 2
+        rgba: 0
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+    - Types:
+      - 
+      States: ffffffff
+      Flags: 6
+      background_image: {fileID: 0}
+      background_color:
+        serializedVersion: 2
+        rgba: 197379
+      border_color:
+        serializedVersion: 2
+        rgba: 16777215
+      border_top_color:
+        serializedVersion: 2
+        rgba: 0
+      border_right_color:
+        serializedVersion: 2
+        rgba: 0
+      border_bottom_color:
+        serializedVersion: 2
+        rgba: 0
+      border_left_color:
+        serializedVersion: 2
+        rgba: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+      border_radius:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      border_width:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+  _quickApply: 0

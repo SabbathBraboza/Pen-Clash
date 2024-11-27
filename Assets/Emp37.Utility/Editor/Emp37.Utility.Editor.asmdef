@@ -1,0 +1,18 @@
+{
+    "name": "Emp37.Utility.Editor",
+    "rootNamespace": "Emp37.Utility.Editor",
+    "references": [
+        "GUID:09769d3062abe044aaf228cce6a5a5bd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
